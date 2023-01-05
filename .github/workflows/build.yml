@@ -3,8 +3,9 @@ name: Github Action No. 2
 on:
   push:
     branches: ["main"]
+  workflow_branches:
 
-permission:
+permissions:
   contents: read
   pages: write
   id-token: write
