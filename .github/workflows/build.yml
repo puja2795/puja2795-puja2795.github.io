@@ -18,3 +18,9 @@ jobs:
         run: npm ci
       - name: Build Project
         run: npm run build
+
+deploy: 
+  environment: 
+    name: github-pages
+  steps:
+    - name: 
